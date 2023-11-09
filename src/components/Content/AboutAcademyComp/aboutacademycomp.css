@@ -1,0 +1,174 @@
+.aboutacademy-main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.aboutacademy-bg-blue {
+    background-color: #152B7D;
+    width: 80%;
+    padding: 60px 0 60px 0;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.aboutacademy-bg-white {
+    border-radius: 30px;
+    background-color: #fff;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.aboutacademy-bg-position {
+    width: 90%;
+}
+
+.academy-image {
+    margin: 5px;
+    width: 100%;
+    max-height: 450px;
+    border-radius: 30px;
+    transition: 1s;
+    
+}
+
+.academy-image:hover {
+    filter: brightness(120%);
+}
+
+.academy-image-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.aboutacademy-text-1 {
+    word-wrap: break-word;
+    width: 100%;
+    font-weight: 500;
+    font-size: 18px;
+    color: #243760;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "BPG Nino Mtavruli Book", sans-serif;
+    
+}
+
+
+.aboutacademy-text-2 {
+    word-wrap: break-word;
+    font-size: 18px;
+    transition: 500ms;
+    border-radius: 10px;
+    transition: 0.3s;
+    color: #243760;
+    font-weight: 600;
+    font-family: "BPG Nino Mtavruli Book", sans-serif;
+}
+
+.aboutacademy-text-2:hover {
+    background-color:#2F69BF;
+    transform: scale(1.030);
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+.aboutacademy-text-title {
+    text-align: center;
+    color:#2F69BF;
+    font-weight: 600;
+    font-size: 21px;
+}
+
+.aboutacademy-ulli-position {
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.aboutacademy-text-start {
+    width: 50%;
+}
+
+.aboutacademy-text-li {
+    font-size: 20px;
+    width: 100%;
+    font-weight: 500;
+    color: #000;
+    text-align: center;
+}
+
+
+
+.aboutacademy-h2 {
+    text-align: center;
+}
+
+.accordion-button {
+    margin: 0;
+}
+
+
+.fa-icon-about {
+    height: 30px;
+    width: 50px;
+    color:#2F69BF;
+}
+
+@media (max-width: 912px) { 
+    .aboutacademy-text-1 {
+        width: 100%;
+        text-align: center;
+    }
+    .rectors-greeting {
+        width: 100%;
+    }
+    .aboutacademy-text-li {
+        width: 100%;
+    }
+    .rector-text-section {
+        width: 100%;
+    }
+    .academy-image {
+        width: 100%;
+
+    }
+    .aboutacademy-text-start {
+        margin: 10px;
+        width: 100%;
+    }
+    .greeting-text-title {
+        color: #2F69BF;
+        overflow: hidden;
+        width: 100%;
+        word-wrap: break-word;
+    }
+    .aboutacademy-text-2 {
+        font-size: 18px;
+        font-weight: 500;
+        overflow: hidden;
+        width: 100%;
+        word-wrap: break-word;
+    }
+    .aboutacademy-text-start ul {
+        word-wrap: break-word;
+        overflow: hidden;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    .aboutacademy-bg-blue {
+        width: 95%;
+    }
+}

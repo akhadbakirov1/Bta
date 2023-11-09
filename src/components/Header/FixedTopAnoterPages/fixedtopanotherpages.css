@@ -1,0 +1,133 @@
+@import url('https://free.bboxtype.com/embedfonts/?family=FiraGO:500i,600');
+
+.anotherpages-nav-pg {
+    background: rgb(64,105,235);
+    background: linear-gradient(90deg, rgba(64,105,235,1) 0%, rgba(64,105,235,0.6349133403361344) 50%, rgba(64,105,235,1) 100%);
+    position: relative;
+}
+
+
+
+
+
+.navbar-another-bg {
+    height: 160px;
+    width: 100%;
+    background-color:#1D2A73;
+}
+
+.navbar-img-another {
+    position: absolute;
+    top: 30px;
+    left: 70px;
+    z-index: 99;
+    max-width: 600px;
+    height: 110px;
+    filter: brightness(1000%);
+    transition: 1s;
+}
+
+.another-pages-toggle {
+    top: 60px;
+    right: 20px;
+    position: absolute;
+    background-color: #fff;
+    color: #4069EB;
+}
+
+.offcanvas-geo {
+    width: 40px;
+    height: 40px;
+    transition: 1s;
+}
+
+.offcanvas-geo:hover {
+    transform: rotate(360deg);
+}
+
+.offcanvas-eng {
+    width: 45px;
+    height: 45px;
+    transition: 1s;
+}
+
+.offcanvas-eng:hover {
+    transform: rotate(360deg);
+}
+.navlinks-container-another {
+    width: 200px;
+    z-index: 99;
+    position: absolute;
+    top: 60px;
+    right: 350px;
+}
+
+.nav-links-another {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	align-items: center;
+	align-content: center;
+}
+
+.menu-txt {
+    color: #fff;
+    font-family: "Poppins", 'FiraGo',sans-serif ;
+    font-weight: 700;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.NavDropdown-title {
+    color: white !important;
+    transition: 1s;
+    border-radius: 20px;
+} */
+
+
+
+
+
+
+
+@media (max-width: 912px) {
+    .nav-toggle {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+   }
+   .navbar-img-another {
+        max-width: 250px;
+        top: 100px;
+        left: 10px;
+   }
+
+   .navbar-another-bg {
+    height: 250px;
+    width: 100%;
+    background-color:#4069EB;
+    }
+    .navlinks-container-another {
+        top: 15px;
+        right: 220px;
+    }
+}
+
+@media (max-width: 281px) {
+
+    .navbar-img-another {
+        width: 200px;
+    }
+}

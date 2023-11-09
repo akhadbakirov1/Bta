@@ -1,0 +1,226 @@
+
+.carousel3-img {
+    position: absolute;
+    top: 30px;
+    left: 70px;
+    z-index: 99;
+    width: 600px;
+    height: 110px;
+    filter: brightness(1000000%);
+    transition: 0.3s;
+}
+
+.carousel3-img:hover {
+    filter: brightness(100%);
+}
+
+.menu-toggle {
+    color: #fff;
+    cursor: pointer;
+    font-family: "BPG ExtraSquare Mtavruli", sans-serif;
+}
+.flag1 {
+    width: 40px;
+    height: 40px;
+    transition: 1s;
+}
+
+.flag1:hover {
+    transform: rotate(360deg);
+}
+
+.flag2 {
+    width: 45px;
+    height: 45px;
+    transition: 1s;
+}
+
+.flag2:hover {
+    transform: rotate(360deg);
+}
+
+.carousel-text-main {
+    display: flex;
+    justify-content: center;
+}
+.carousel-text1 {
+    font-family: "BPG ExtraSquare Mtavruli", sans-serif;
+}
+
+.carousel-caption {
+    z-index: 9;
+    height: 100%;
+    max-width: 100%;
+}
+
+.carousel-text-bt-position {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.carousel-btn {
+    margin-top: 25px;
+}
+
+
+
+
+.nav-links {
+    position: absolute;
+    right: 50px;
+    top: 55px;
+    z-index: 99;
+}
+
+.nav-links ul {
+    list-style: none;
+}
+
+.nav-links ul li  {
+   display: inline-block;
+   margin-left: 20px;
+   font-size: 18px;
+   position: absolute;
+   top: 10px;
+   right: 160px;
+
+}
+
+.nav-links ul li a {
+    color: #fff;
+    font-family: "BPG ExtraSquare Mtavruli", sans-serif;
+    font-weight: 700;
+    transition: 0.5s ease;
+}
+
+.nav-links ul li a:hover {
+    color: #4069EB;
+}
+
+.carousel-href {
+    height: 100px;
+    width: 100px;
+    background-color: #fff;
+    color:#000;
+    font-family: "BPG ExtraSquare Mtavruli", sans-serif;
+}
+.carousel-text1 {
+    font-family: "BPG ExtraSquare Mtavruli", sans-serif;
+    font-size: 40px;
+}  
+
+
+.carousel-btn a {
+    text-decoration: none;
+    color: #000;
+    font-family: "BPG ExtraSquare Mtavruli", sans-serif;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 912px) {
+    .carousel3 {
+    height: 800px;
+    padding-bottom: 20px;
+   }
+
+   .carousel-image {
+    height: 800px;
+   }
+
+   .carousel-text1 {
+    font-size: 35px;
+    text-align: center;
+   }
+
+   .carousel3-img {
+    max-width: 200px;
+    height: 100px;
+    left: 10px;
+    top: 5px;
+   }
+   .nav-links {
+    top: 20px;
+    right: 80px;
+   }
+
+
+   /* .nav-links ul li{
+    
+    padding-top: 50px;
+   } */
+
+   .carousel-caption {
+    height: 500px;
+}
+    .search-main {
+        top: 50px;
+        left: 35px;
+    }
+    .nav-links ul li a {
+        display: none;
+    }
+    .carousel-text-main {
+        max-width: 100%;
+    }
+}
+
+
+
+
+
+@media (max-width: 281px) {
+    .carousel3 {
+    height: 800px;
+    padding-bottom: 20px;
+   }
+
+   .carousel-image {
+    height: 800px;
+   }
+
+   .carousel-text1 {
+    font-size: 26px;
+    text-align: center;
+   }
+
+   .carousel3-img {
+    display: none;
+   }
+   .nav-links {
+    top: 20px;
+    right: 80px;
+   }
+   .carousel-control-prev {
+    width: 10%;
+   }
+
+   .carousel-control-next {
+    width: 10%;
+   }
+  
+   /* .nav-links ul li{
+    
+    padding-top: 50px;
+   } */
+
+   .carousel-caption {
+    height: 500px;
+}
+    .nav-links ul li a {
+        display: none;
+    }
+    .carousel-text-main {
+        max-width: 100%;
+    }
+
+}

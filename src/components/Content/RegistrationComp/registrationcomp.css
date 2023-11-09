@@ -1,0 +1,122 @@
+
+.registration-main {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.registration-bg-blue {
+    background-color: #1A2A78;
+    width: 60%;
+    padding: 30px 30px 30px 30px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.registration-bg-white {
+    background-color: #fff;
+    width: 95%;
+    padding: 30px;
+    border-radius: 30px;
+}
+.registration-input-container {
+    display: flex;
+    justify-content: center;
+    align-content:center;
+    align-items:center;
+    flex-direction: column;
+    
+}
+
+.registration-title {
+    font-weight: 600;
+    color:#2F69BF;
+}
+.fa-registration-icon {
+    padding-left: 10px;
+    border-radius: 30px 0 0 30px ;
+    margin-top: 30px;
+    width: 25px;
+    height: 40px;
+    background-color:#2F69BF;
+    color:#fff;
+
+}
+.registration-input-main {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content:center;
+    align-items:center;
+}
+
+.registration-input {
+    border-radius: 0px 30px 30px 0px;
+    margin-top: 30px;
+    color:#fff;
+    background-color: #2F69BF;
+    width: 50%;
+    height: 40px;
+    overflow: hidden;
+}
+
+.registration-button-container {
+    display: flex;
+}
+
+.registration-button {
+    margin-top: 20px;
+    background-color:#1D2A73;
+    color:#fff;
+    font-weight: 600;
+    font-size: 19px;
+}
+
+.registration-button-prev {
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color:#2F69BF;
+    color:#fff;
+    font-weight: 600;
+    font-size: 19px;
+}
+
+.registration-input::placeholder {
+    font-size: 20px;
+    color: #fff;
+    text-align: left;
+}
+
+
+
+
+
+
+@media (max-width: 912px) { 
+    .registration-input {
+        width:100%;
+    }
+    .registration-bg-blue{
+        width: 95%;
+        height: auto;
+    }
+
+
+    .registration-main {
+        margin-top: 30px;
+        max-width: 100%;
+    }
+
+}
+
+@media (max-width: 281px) { 
+
+
+    .registration-input::placeholder {
+        font-size: 16px;
+    }
+
+}

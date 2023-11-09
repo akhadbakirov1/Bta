@@ -1,0 +1,26 @@
+.header2 {
+    /* min-height: 100vh; */
+    /* background: #000; */
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 2% 6%;
+}
+
+.nav-links ul {
+    list-style: none;
+}
+
+.nav-links ul li {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.nav-links ul li a {
+    color: #000;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: cursive;
+}
+

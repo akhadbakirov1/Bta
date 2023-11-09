@@ -1,0 +1,95 @@
+.socialmedia {
+    padding: 0px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-bottom: 2px;
+}
+
+.socialmedia ul {
+    list-style: none;
+     margin: 5px;
+}
+
+.socialmedia ul li {
+    display: inline-block;
+    margin: 10px;
+}
+
+.socialmedia ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "BPG ExtraSquare Mtavruli", sans-serif;
+    font-size: 16px;
+    transition: 0.5s;
+}
+
+.mx-auto p{
+    font-family: "BPG Nino Mtavruli Book", sans-serif;
+}
+
+.text-uppercase {
+    font-family: "BPG ExtraSquare Mtavruli", sans-serif;
+}
+
+.socialmedia ul li a:hover {
+    color: #152B7D;
+}
+
+.instagram_class{
+    height: 40px;
+    width: 40px;
+}
+
+.social-title {
+    font-family: "BPG ExtraSquare Mtavruli", sans-serif;
+}
+
+.me-5 span {
+    color: #fff;
+}
+
+.text-center {
+    color: #fff;
+}
+
+.text-reset {
+    text-decoration: none;
+}
+
+
+.mdbcol-item a {
+    color: #fff;
+}
+
+.me-5 span  {
+    font-size: 18px;
+}
+
+.footer-bg {
+    background: #1D2A73;
+}
+
+
+
+.footer-logo {
+    max-width: 200px;
+    height: 200px;
+}
+
+.cont p{
+    max-width: 1000px;
+}
+
+
+
+@media screen and (max-width: 912px) { 
+    .location-1 {
+        max-width: 200px;
+    }
+  }
+
+
+
+
+

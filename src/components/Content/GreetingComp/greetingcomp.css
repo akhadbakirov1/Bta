@@ -1,0 +1,136 @@
+@import url('https://free.bboxtype.com/embedfonts/?family=FiraGO:500i');
+
+
+.rectors-greeting-main {
+    width: 100%;
+}
+
+.rector-main {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.greeting-text-1 {
+    margin-left: 40px;
+    word-wrap: break-word;
+    width: 95%;
+    color: #243760;
+    font-size: 18px;
+    font-weight: 600;
+    overflow-wrap: anywhere;
+    font-family: "BPG Nino Mtavruli Book", sans-serif;
+}
+
+.rector-text-section {
+    display: flex;
+    justify-content: center;
+    max-width: 70%;
+    background-color:#1A2A78;
+    border-radius: 30px;
+    padding: 50px 0px 50px 0px;
+    font-family: "BPG Nino Mtavruli Book", sans-serif;
+}
+
+.lectors-img {
+    margin: 5px;
+    width: 100%;
+    max-height: 450px;
+    border-radius: 30px;
+    transition: 1s;
+}
+
+.greeting-text-title {
+    text-align: center;
+    font-weight: 600;
+    color:#2F69BF;
+    font-family: "BPG Nino Mtavruli Book", sans-serif;
+}
+
+.greeting-text-3 {
+    margin-left: 40px;
+    text-align: center;
+    font-size: 22px;
+    color:#4669E7;
+    font-weight: 600;
+    font-family: "BPG Nino Mtavruli Book", sans-serif;
+}
+
+.lectors-img:hover {
+    filter: brightness(120%);
+}
+
+
+.lectors-img-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.rectors-greeting {
+    max-width: 95%;
+    background-color: #F1F2F5;
+    border-radius: 30px;
+    box-shadow: -2px 1px 40px 16px rgba(18,80,237,0.27);
+-webkit-box-shadow: -2px 1px 40px 16px rgba(18,80,237,0.27);
+-moz-box-shadow: -2px 1px 40px 16px rgba(18,80,237,0.27);
+}
+
+
+
+
+.greeting-text-main {
+    font-size: 20px;
+    width: 100%;
+    font-weight: 500;
+    color: #000;
+    text-align: center;
+}
+
+.greeting-text-h2 {
+
+    width: 100%;
+    font-weight: 600;
+    color: #4669E7;
+    text-align: center;
+}
+.greeting-text-2 {
+    margin-left: 40px;
+    width: 90%;
+    color: #243760;
+    font-size: 18px;
+    font-weight: 600;
+    overflow-wrap: anywhere;
+    font-family: "BPG Nino Mtavruli Book", sans-serif;
+}
+
+
+@media (max-width: 912px) { 
+    .greeting-text-1 {
+        margin-left: 0px;
+        width: 100%;
+        text-align: center;
+    }
+    .greeting-text-2 {
+        width: 100%;
+        text-align: center;
+    }
+    .greeting-text-h2 {
+        width: 100%;
+        text-align: center;
+    }
+    .lectors-img {
+        max-width: 350px;
+        max-height: 300px;
+    }
+    .rector-text-section {
+        max-width: 100%;
+    }
+    .rectors-greeting {
+        max-width: 95%;
+    }
+}
+
+
+
+
+

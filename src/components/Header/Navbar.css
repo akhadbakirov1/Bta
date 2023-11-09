@@ -1,0 +1,61 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@900&display=swap');
+@import url('https://free.bboxtype.com/embedfonts/?family=FiraGO:600');
+
+.navbar-nav .nav-link {
+    color: white !important;
+    transition: 0.5s;
+    font-family: 'FiraGO', sans-serif;
+    font-size: 20px;
+  }
+
+.navbar-nav .nav-link:hover {
+    background-color: rgba(0, 82, 255, 0.54);
+    border-radius: 100px;
+  }
+  
+.navibar-main {
+  font-family: 'FiraGO', sans-serif;
+    font-size: 17px;
+}
+
+
+.navibar-logo {
+  transition: 1s;
+}
+
+.navibar-logo:hover {
+  transform: rotate(360deg);
+}
+
+.navdropdown-main {
+  transition: 1s;
+}
+
+.navibar-item:hover{
+  background-color: #ccc;
+}
+
+
+@media screen and (max-width: 576px) {
+  .card1 {
+      
+    border-radius: 0;
+  }
+
+}
+
+.flag {
+  transition: 1s;
+}
+.flag:hover {
+  transform: rotate(360deg);
+}
+
+.bgcolor {
+  background: rgb(64,105,235);
+background: linear-gradient(90deg, rgba(64,105,235,1) 0%, rgba(64,105,235,0.6349133403361344) 50%, rgba(64,105,235,1) 100%);
+}
+
+
+ */
+ 

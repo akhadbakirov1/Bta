@@ -1,0 +1,147 @@
+.student-self-main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.student-self-bg-blue {
+    background-color: #1A2A78;
+    width: 70%;
+    padding: 60px 0 60px 0;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.student-self-bg-white {
+    background-color: #fff;
+    width: 95%;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+
+
+.acts-text-3 {
+    max-width: 100%;
+	height: 60px;
+	background-color: #69a7fa;
+	display: flex;
+	justify-content: space-between;
+	align-content:center;
+	align-items:center;
+	border-radius: 20px;
+	font-size: 24px;
+	font-weight: 600;
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.47);
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.47);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.47);
+	transition: 1s;
+	text-align: center;
+    margin-bottom: 30px;
+}
+
+.acts-text-3:hover {
+    transform: scale(1.050);
+}
+
+.student-self-title {
+    font-size: 22px;
+    font-weight: 600;
+    color: #2F69BF;
+    margin: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.student-self-title-h {
+    font-weight: 600;
+    color: #2F69BF;
+    margin: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.gov-img {
+    overflow: hidden;
+    max-width: 100%;
+    margin-bottom: 30px;
+}
+
+.gov-text-1 {
+    margin-left: 50px;
+    word-wrap: break-word;
+    width: 95%;
+    color: #243760;
+    font-size: 18px;
+    font-weight: 600;
+    overflow-wrap: anywhere;
+    font-family: "BPG Nino Mtavruli Book", sans-serif;
+}
+
+.video-gov {
+    width: 100%;
+    height: 600px;
+}
+
+
+@media (max-width: 912px) { 
+    .acts-text-3 {
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+        max-width: 100%;
+        font-size: 18px;
+        overflow: hidden;
+    }
+    .student-self-bg-blue {
+        width:100%;
+    }
+    .video-gov{
+        max-width: 100%;
+        height: auto;
+    }
+
+    .student-self-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+        overflow: hidden;
+    }
+    .student-self-title {
+        overflow: hidden;
+        text-align: left;
+    }
+}
+
+@media (max-width: 300px) { 
+    .acts-text-3 {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        max-width: 100%;
+        font-size: 18px;
+        overflow: hidden;
+    }
+    .student-self-bg-blue {
+        width:100%;
+    }
+    .video-gov{
+        max-width: 100%;
+        height: auto;
+    }
+
+    .student-self-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+        overflow: hidden;
+    }
+    .student-self-title {
+        font-size: 18px;
+        overflow: hidden;
+        text-align: left;
+    }
+}
