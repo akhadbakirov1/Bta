@@ -1,0 +1,36 @@
+.vacancy-text {
+    width: 95%;
+    background-color: #F1F2F5;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.vacancy-text-position {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.vacancy-text-title {
+    text-align: center;
+    color: #2F69BF;
+    font-weight: 600;
+}
+
+.vacancy-text-main {
+    text-align: center;
+    color: #2F69BF;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.vacancy-text-center {
+    width:50%;
+}
+
+@media (max-width: 912px) { 
+    .vacancy-text-center {
+        width:100%;
+    }
+}

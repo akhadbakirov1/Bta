@@ -1,0 +1,57 @@
+/* @import url('https://free.bboxtype.com/embedfonts/?family=FiraGO:600i');
+
+.swipe-container {
+  margin-top: 50px;
+}
+.swiper-border {
+  border-radius: 40px;
+  box-shadow: -1px 24px 37px 0px rgba(0,0,0,0.64);
+  background-color: #ffffff;
+  width: 100%;
+  height: 200px;
+  background-color: #ffffff;
+  transition: 1s;
+}
+
+.swiper-border:hover {
+  transform: scale(1);
+}
+
+.swiper-item {
+  text-align: center;
+}
+
+.fa-icon {
+  height: 50px;
+  width: 60px;
+  color: #000;
+}
+
+.swiper-text {
+  color: #000;
+  font-family: 'FiraGO', sans-serif;
+  font-size: 20px;
+}
+
+.width-card3 {
+  width: 300px;
+}
+
+
+@media screen and (min-width: 577px) {
+  .swiper-border:hover {
+      transform: scale(1.050);
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .swiper-borderswiper-border {
+      max-width: 100%;
+      margin-top: 40px !important; 
+      
+  }
+
+  .swiper-border:hover {
+      transform: none; 
+  }
+} */

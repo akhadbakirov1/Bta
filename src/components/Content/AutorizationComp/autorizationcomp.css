@@ -1,0 +1,80 @@
+.autorization-main-position {
+    display: flex;
+    justify-content: center;
+}
+.autorization-download {
+    margin-top: 30px;
+    height: 50px;
+    width: 100px;
+    color:#fff;
+    background-color:#2F69BF;
+    display: flex;
+    align-items:center;
+    align-content: center;
+    justify-content: center;
+    font-weight: 700;
+    border-radius:30px;
+}
+
+.autorization-download:hover {
+    background-color:#1A2A78;
+}
+
+
+.autorization-text-1 {
+    color: #4968E3;
+    margin-top: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+.autorization-text-2 {
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content:center;
+    align-items:center;
+}
+.autorization-main {
+    background-color: #1A2A78;
+    width: 80%;
+    height: auto;
+    border-radius: 30px;
+    padding: 60px 0px 60px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.autorization-container {
+    background-color:#F8F9FA;
+    padding: 30px;
+    width: 95%;
+    height: auto;
+    border-radius:30px;
+}
+
+.autorization-pdf {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+
+.autorization-pdf-file {
+    margin-top: 40px;
+    height: 900px;
+    width: 100%;
+}
+
+
+@media screen and (max-width: 912px) {
+    .autorization-pdf-file {
+        max-width: 100%;
+    }
+
+    .autorization-main {
+        width: 95%;
+    }
+}

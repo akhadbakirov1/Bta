@@ -1,0 +1,8 @@
+.rektor-position {
+    display: flex;
+    justify-content: center;
+}
+
+.rektor-text-start {
+    width: 100%;
+}

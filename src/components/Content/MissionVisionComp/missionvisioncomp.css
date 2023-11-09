@@ -1,0 +1,77 @@
+.mission-main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.mission-bg-blue {
+    background-color: #1A2A78;
+    max-width: 70%;
+    padding: 60px 0 60px 0;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.mission-bg-white {
+    border-radius: 30px;
+    background-color: #fff;
+    max-width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.mission-logo {
+    margin-top: 20px;
+    max-height: 200px;
+    max-width: 200px;
+}
+
+.mission-title-first {
+    text-align: center;
+    font-size: 22px;
+    color:#2F69BF;
+    font-weight: 600;
+    font-family: 'FiraGO', sans-serif;
+}
+
+.mission-text-title {
+    font-weight: 600;
+    color:#2F69BF;
+    font-family: 'FiraGO', sans-serif;
+}
+
+.mission-text {
+    margin-left: 40px;
+    color: #243760;
+    font-size: 18px;
+    font-weight: 600;
+    overflow-wrap: anywhere;
+    font-family: "BPG Nino Mtavruli Book", sans-serif;
+}
+
+.mission-text-list {
+    text-align: center;
+    width: 90%;
+    color: #243760;
+    font-size: 18px;
+    font-weight: 600;
+    overflow-wrap: anywhere;
+    font-family: "BPG Nino Mtavruli Book", sans-serif;
+}
+
+
+@media (max-width: 912px) {
+    .mission-bg-white {
+        max-width: 95%;
+    }
+    .mission-bg-blue {
+        padding: 30px 5px 30px 5px;
+        max-width: 95%;
+    }
+}

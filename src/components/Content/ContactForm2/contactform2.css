@@ -1,0 +1,88 @@
+.smartboard-flex {
+    display: flex;
+    justify-content: center;
+}
+
+
+.smartboard-title {
+    position: absolute;
+    top: 70px;
+    left: 200px;
+    font-size: 33px;
+    color: #243760;
+}
+
+.smartboard-main {
+    width: 700px;
+    height: 450px;
+    position: relative;
+}
+
+.smartboard-img {
+    max-width: 100%;
+    height: 100%;
+}
+
+.form-smartboard {
+    position: absolute;
+    top: 130px;
+    left: 100px;
+}
+
+.smartboard-title {
+    text-align: center;
+}
+
+.form-smartboard p label  {
+    color: #243760;
+}
+
+
+
+.form-smartboard p button {
+    background-color: #243760;
+}
+
+.form-smartboard p input { 
+    color: #243760;
+    background: rgb(36,55,96);
+    background: linear-gradient(90deg, rgba(36,55,96,0.015865721288515378) 0%, rgba(36,55,96,0.0214679621848739) 100%);
+    font-family: "BPG Banner ExtraSquare Caps", sans-serif;
+    border-radius: 10px;
+}
+
+.form-smartboard p textarea {
+    background: rgb(36,55,96);
+background: linear-gradient(90deg, rgba(36,55,96,0.015865721288515378) 0%, rgba(36,55,96,0.0214679621848739) 100%);
+    color: #243760;
+    max-width: 400px;
+    font-family: "BPG Banner ExtraSquare Caps", sans-serif;
+}
+
+@media (max-width: 912px) { 
+    .form-smartboard {
+        position: absolute;
+        top: 200px;
+        left: 60px;
+    }
+
+    .smartboard-img {
+        max-width: 100%;
+        height: 800px;
+    }
+
+    .smartboard-flex {
+        max-width: 100%;
+        margin-bottom: 100px;
+    }
+    .form-smartboard p button {
+        margin-top: 50px;
+    }
+
+    .smartboard-title {
+        position: absolute;
+        top: 70px;
+        right: 0px;
+        font-size: 38px;
+    }
+}

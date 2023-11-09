@@ -1,0 +1,182 @@
+
+.academy-info-bg {
+    background-color: #F1F2F5;
+}
+
+
+
+
+.main-academyinfo {
+    display: flex;
+    justify-content: center;
+    margin-top:  0px;
+    align-items: flex-end;
+}
+
+.card-flex-academy {
+    margin-top: 20px;  
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
+.iconfa {
+    width: 75px;
+    height: 75px;
+    color: #fff;
+}
+
+.iconfaz {
+    width: 75px;
+    height: 75px;
+    color: #000;
+}
+
+.title-academyz {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: #000;
+    font-family: "BPG ExtraSquare Mtavruli", sans-serif;
+}
+
+.title-academy {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+    font-family: "BPG ExtraSquare Mtavruli", sans-serif;
+}
+.academyinfo-textz {
+    font-family: 'FiraGO', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    color: #000;
+    font-family: "BPG ExtraSquare Mtavruli", sans-serif;
+}
+
+.academyinfo-text {
+    font-family: "BPG ExtraSquare Mtavruli", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+}
+
+.card-academy-bg {
+    background-color: #1A2A78;
+    transition: 1s;
+    max-width: 20rem;
+    height: 28rem;
+}
+
+.card-academy-bg:hover {
+    transform: scale(1.050);
+}
+
+.card-academy-bg-white {
+    transition: 1s;
+    height: 26rem;
+    max-width: 20rem;
+}
+
+.card-academy-bg-1 {
+    transition: 1s;
+    max-width: 20rem;
+    height: 22rem;
+    transition: 1s;
+}
+
+.card-academy-bg-white-1 {
+    background-color: #1A2A78;
+    transition: 1s;
+    height: 24rem;
+    max-width: 20rem;
+}
+
+.academyinfo-btn {
+    font-family: "BPG ExtraSquare Mtavruli", sans-serif;
+}
+
+.card-academy-bg-white-1:hover {
+    transform: scale(1.050);
+}
+
+.card-academy-bg-1:hover {
+    transform: scale(1.050);
+}
+
+.card-academy-bg-white:hover {
+    transform: scale(1.050);
+}
+
+.card-flex {
+    width: 10000px;
+}
+
+.fa-academyinfo {
+    height: 90px;
+    width: 90px;
+    color:#fff;
+    transition: 0.5s;
+}
+
+.fa-academyinfo:hover {
+    color:#000;
+}
+
+.fa-academyinfo-2 {
+    height: 90px;
+    width: 90px;
+    color:#1A2A78;
+    transition: 0.5s;
+}
+
+.fa-academyinfo-2:hover {
+    color:#000;
+}
+
+
+
+  @media screen and (max-width: 912px) { 
+    .main-academyinfo{
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+    }
+
+.card-academy-bg {
+    background-color: #1A2A78;
+    transition: 1s;
+    max-width: 20rem;
+    height: 28rem;
+}
+
+.card-academy-bg:hover {
+    transform: scale(1.050);
+}
+
+.card-academy-bg-white {
+    transition: 1s;
+    height: 26rem;
+    max-width: 20rem;
+}
+
+.card-academy-bg-1 {
+    max-width: 20rem;
+
+}
+
+.card-academy-bg-white-1 {
+    background-color: #1A2A78;
+    transition: 1s;
+    height: 24rem;
+    max-width: 20rem;
+}
+  }

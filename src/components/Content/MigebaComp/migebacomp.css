@@ -1,0 +1,237 @@
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+
+.migeba-main {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.migeba-indicator-red {
+    margin: 0;
+    text-align: center;
+    color:#CC3425;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.migeba-bg-blue {
+    background-color: #152B7D;
+    width: 70%;
+    padding: 60px 0 60px 0;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.migeba-bg-white {
+    border-radius: 30px;
+    background-color: #fff;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.migeba-title {
+    color: #243760;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-family: "BPG ExtraSquare Mtavruli", sans-serif;
+}
+
+.migeba-text-section {
+    width: 99%;
+    justify-content: center;
+}
+.migeba-text-blue {
+    flex: 1;
+    margin-left: 10px;
+    color: #243760;
+    font-size: 18px;
+    font-weight: 600;
+    overflow-wrap: anywhere;
+    font-family: "BPG Nino Mtavruli Book", sans-serif;
+}
+
+.migeba-text-red {
+    margin-left: 30px;
+    color: #CC3425;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "BPG Nino Mtavruli Book", sans-serif;
+}
+
+.migeba-text-main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+}
+
+
+
+.migeba-red-text {
+    color:#CC3425;
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 30px;
+}
+
+
+.migeba-line {
+    border-radius: 50px;
+    margin: 40px 0 40px 0;
+    display: flex;
+    background-color: #243760;
+    width: 100%;
+    height: 2px;
+}
+
+.migeba-emis-main {
+    display: flex;
+    justify-content: center;
+}
+
+.migeba-text-emis-blue {
+    margin: 0px;
+    flex: 1;
+    color: #243760;
+    font-size: 20px;
+    font-weight: 600;
+    overflow-wrap: anywhere;
+    font-family: "BPG Nino Mtavruli Book", sans-serif;
+}
+
+.migeba-text-emis {
+    margin: 0px;
+    color: #CC3425;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "BPG Nino Mtavruli Book", sans-serif;
+
+}
+
+.emis-logo {
+    height: 40px;
+    width: 40px;
+}
+
+.migeba-title-red-position {
+    display: flex;
+    justify-content: center;
+}
+
+.migeba-title-red-bg {
+    background: rgb(36,55,96);
+    background: linear-gradient(90deg, rgba(36,55,96,1) 0%, rgba(204,52,37,1) 100%);
+    max-width: 100%;
+    text-align: center;
+    font-size: 25px;
+    border-radius:5px;
+    font-weight: 600;
+    font-family: "BPG Nino Mtavruli Book", sans-serif;
+}
+
+.migeba-title-red {
+    margin: 0;
+    max-width:100%;
+    color:#fff;
+}
+
+
+.migeba-indicator-position {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.migeba-indicator-bg {
+    display: flex;
+    justify-content: center;
+    align-content:center;
+    align-items:center;
+    flex-direction: column;
+    background: rgb(36,55,96);
+    background: linear-gradient(90deg, rgba(36,55,96,1) 0%, rgba(204,52,37,1) 100%);
+    max-width: 500px;
+    min-height: 500px;
+    border-radius: 100000px;
+}
+
+.migeba-indicator-blue-bg {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    align-content:center;
+    text-align: center;
+    padding: 3px;
+    background:#152B7D;
+    max-width: 600px;
+    border-radius: 30px;
+}
+
+.migeba-indicator-text {
+    text-align: center;
+    color:#fff;
+    font-weight: 600;
+    margin: 0;
+    font-size: 25px;
+    animation: blink 4s infinite;
+}
+
+.migeba-indicator {
+    font-size: 25px;
+    margin: 0;
+    text-align: center;
+    color:#fff;
+    font-weight: 900;
+    animation: blink 4s infinite;
+}
+
+.migeba-prog-link-main {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.migeba-prog-link {
+    max-width: 200px;
+    background:#2F69BF;
+    border-radius:30px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+.migeba-prog-link:hover {
+    background-color: #243760;
+}
+
+
+
+.migeba-prog-link a{
+    max-width: 200px;
+    color:#fff;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+
+.emis-logo-section {
+    margin: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content:center;
+    align-items:center;
+    text-align: center;
+}

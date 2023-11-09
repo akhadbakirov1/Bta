@@ -1,0 +1,115 @@
+.strategicdev-row {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items:flex-start;
+	align-content: center;
+    width: 100%;
+}
+
+.st-section-title-1 {
+    text-align: center;
+    color: #202A6E;
+    font-size: 26px;
+    font-weight: 600;
+}
+.strategic-section-1 {
+    width: 33%;
+}
+.strategic-section-2 {
+    width: 33%;
+}
+.strategic-section-3 {
+    width: 33%;
+}
+
+.st-item-1 {
+    width: 95%;
+    min-height: 60px;
+    background-color:#4569E5;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-content:center;
+	align-items:center;
+	border-radius: 20px;
+	font-size: 20px;
+	font-weight: 600;
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.47);
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.47);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.47);
+    transition: 1s;
+    text-align: center;
+}
+
+.st-item-1:hover {
+    transform: scale(1.050);
+}
+
+
+.st-item-2 {
+    width: 95%;
+    min-height: 60px;
+    background-color:#76A5F4;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-content:center;
+	align-items:center;
+	border-radius: 20px;
+	font-size: 20px;
+	font-weight: 600;
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.47);
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.47);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.47);
+    transition: 1s;
+    text-align: center;
+}
+
+.st-item-2:hover {
+    transform: scale(1.050);
+}
+
+
+@media screen and (max-width: 912px) {
+    .strategic-section-1 {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .strategic-section-2 {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .strategic-section-3 {
+        margin-top: 20px;
+        width: 100%;
+    }
+    .strategicdev-row {
+        width: 100%;
+    }
+    .st-item-2 {
+        display: flex;
+        min-width: 100%;
+        height: auto;
+    }
+
+    .st-item-1 {
+        display: flex;
+        min-width: 100%;
+        height: auto;
+    }
+
+    .strategicdev-row {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items:flex-start;
+        align-content: center;
+        width: 100%;
+    }
+    
+}

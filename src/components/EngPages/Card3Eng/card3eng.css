@@ -1,0 +1,79 @@
+@import url('https://free.bboxtype.com/embedfonts/?family=FiraGO:600');
+
+
+.card3-container {
+    background-color: #F1F2F5;
+    box-shadow: 2px 2px;
+
+}
+
+
+
+.card3-item2 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.mdbcard2 {
+  box-shadow: -1px 24px 37px 0px rgba(0,0,0,0.64);
+-webkit-box-shadow: -1px 24px 37px 0px rgba(0,0,0,0.64);
+-moz-box-shadow: -1px 24px 37px 0px rgba(0,0,0,0.64);
+  transition: 0.5s;
+  flex: 1;
+}
+
+.mdbcard2:hover {
+  transform: scale(1.050);
+}
+
+
+.card3-item1{
+  display:flex; 
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+
+.mdbcard1 {
+    box-shadow: -1px 24px 37px 0px rgba(0,0,0,0.64);
+-webkit-box-shadow: -1px 24px 37px 0px rgba(0,0,0,0.64);
+-moz-box-shadow: -1px 24px 37px 0px rgba(0,0,0,0.64);
+    transition: 0.5s;
+    flex: 1;
+}
+
+
+.mdbcard1:hover {
+  transform: scale(1.050);
+} 
+
+
+ 
+.show-more {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+  
+
+
+
+
+@media screen and (max-width: 912px) {
+    .mdbcard {
+        max-width: 100%;
+        margin-top: 40px !important; 
+    }
+
+    .mdbcard:hover {
+        transform: none; 
+    }
+    .mdbcard1 {
+      flex: none;
+    }
+    .mdbcard2 {
+      flex: none;
+    }
+}
+

@@ -1,0 +1,84 @@
+@import url('https://free.bboxtype.com/embedfonts/?family=FiraGO:600i');
+
+.swipe-container {
+  margin-top: 50px;
+  height: auto;
+  max-width: 100%;
+}
+.swiper-border {
+  border-radius: 40px;
+  box-shadow: -1px 24px 37px 0px rgba(0,0,0,0.64);
+  background-color: #fff;
+  max-width: 100%;
+  max-height: 200px;
+  margin: 10px;
+  transition: 1s;
+  overflow: hidden;
+}
+.swiper-border:hover {
+  transform: scale(1.1);
+  background-color: #ccc;
+}
+.swiper-border {
+  max-width: 100%;
+  min-height: 200px;
+}
+
+
+.swiper-item {
+  text-align: center;
+  max-width: 100%;
+}
+
+.fa-icon {
+  height: 80px;
+  width: 80px;
+  color: #000;
+}
+.fa-icon:hover {
+  color: #152B7D;
+}
+
+.swiper-text {
+  color: #243760;
+  font-family: "BPG ExtraSquare Mtavruli", sans-serif;
+  font-size: 22px;
+}
+
+
+
+/* @media screen and (max-width: 577px) {
+  .swiper-border:hover {
+      transform: scale(1.050);
+  }
+} */
+
+@media screen and (max-width: 912px) {
+  .swipe-container {
+    display: flex;
+    justify-content: center;
+      
+  }
+
+  .swiper-border:hover {
+      transform: none; 
+  }
+
+  .swiper-border {
+    min-height: 100%;
+    margin: auto;
+  }
+  .fa-icon {
+    height: 50px;
+    width: 50px;
+    color: #000;
+  }
+  .swiper-text {
+    display: none;
+  }
+
+
+
+
+ 
+}
